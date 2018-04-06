@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.pojo.User">
+
+<resultMap id="userMap" type="com.pojo.User" >
+		<id property="userId" column="userId"/>
+		<result property="userName" column="userName" />
+		<result property="loginPwd" column="loginPwd" />
+		<result property="userType" column="userType" />
+		<result property="userSex" column="userSex" />
+		<result property="trueName" column="trueName" />
+		<result property="brithday" column="brithday" />
+		<result property="userPhoto" column="userPhoto" />
+		<result property="userQQ" column="userQQ" />
+		<result property="userPhone" column="userPhone" />
+		<result property="userEmail" column="userEmail" />
+		<result property="userScore" column="userScore" />
+		<result property="userTotalScore" column="userTotalScore" />
+		<result property="lastIP" column="lastIP" />
+		<result property="lastTime" column="lastTime" />
+		<result property="userFrom" column="userFrom" />
+		<result property="userMoney" column="userMoney" />
+		<result property="lockMoney" column="lockMoney" />
+		<result property="userStatus" column="userStatus" />
+		<result property="isvalid" column="isvalid" />
+		<result property="createTime" column="createTime" />
+		<result property="payPwd" column="payPwd" />
+</resultMap>
+
+<insert id="addUser"  parameterType="com.pojo.User" useGeneratedKeys="true" keyProperty="userId">
+insert into users(userName,loginPwd,userPhone,userEmail) values(#{userName},#{loginPwd},#{userPhone},#{userEmail})
+</insert>
+
+<delete id="deleteUser" parameterType="int">
+delete from users where userId=#{id}
+</delete>
+
+<!--动态更新 用户信息  -->
+<update id="updateUserById" parameterType="map" >
+update users
+<set>
+	<!-- <if test="userId != null">
+		userId=#{userId},
+	</if> -->
+	<if test="userName != null">
+		userName=#{userName},
+	</if>
+	<if test="loginPwd != null">
+		loginPwd=#{loginPwd},
+	</if>
+	<if test="userPhone != null">
+		userPhone=#{userPhone},
+	</if>
+	<if test="userEmail != null">
+		userEmail=#{userEmail},
+	</if>
+	<if test="userType != null">
+		userType=#{userType},
+	</if>
+	<if test="userSex != null">
+		userSex=#{userSex},
+	</if>
+	<if test="trueName != null">
+		trueName=#{trueName},
+	</if>
+	
+	<if test="brithday != null">
+		brithday=#{brithday},
+	</if>
+	<if test="userQQ != null">
+		userQQ=#{userQQ},
+	</if>
+	<if test="userScore != null">
+		userScore=#{userScore},
+	</if>
+	<if test="userTotalScore != null">
+		userTotalScore=#{userTotalScore},
+	</if>
+	<if test="lastIP != null">
+		lastIP=#{lastIP},
+	</if>
+	<if test="lastTime != null">
+		lastTime=#{lastTime},
+	</if>
+	<if test="userFrom != null">
+		userFrom=#{userFrom},
+	</if>
+	<if test="userMoney != null">
+		userMoney=#{userMoney},
+	</if>
+	<if test="lockMoney != null">
+		lockMoney=#{lockMoney},
+	</if>
+	<if test="userStatus != null">
+		userStatus=#{userStatus},
+	</if>
+	<if test="isvalid != null">
+		isvalid=#{isvalid},
+	</if>
+	<if test="createTime != null">
+		createTime=#{createTime},
+	</if>
+	<if test="buyvideoid != null">
+		payPwd=#{payPwd},
+	</if>
+</set>
+where userId=#{userId}
+</update>
+
+ <!--Array:forech中的collection属性类型是array,collection的值必须是:list,item的值可以随意,Dao接口中参数名字随意 -->  
+    <delete id="deleteManyUser" >  
+       delete from users where userId in
+        <foreach collection="array" item="ids"   
+            open="(" close=")" separator=",">  
+            #{ids}  
+        </foreach>  
+    </delete>  
+
+
+
+ <!-- 批量删除 
+<delete id="deleteManyUser">
+		delete from users where userId in
+		<foreach collection="array" open="(" close=")" separator="," item="ids">
+			${ids}
+		</foreach>
+		
+		<foreach collection="list" open="(" close=")" separator="," item="ids">
+			${ids}
+		</foreach>
+			
+</delete> -->
+
+<!-- 查询所有用户信息 -->
+<select id="findAllUser" parameterType="map" resultMap="userMap">
+select * from users limit #{pstart},#{pend} ;
+</select>
+<!-- 查询用户总数 -->
+<select id="allRecords" resultType="int">
+	select count(userId) from users;
+</select>
+
+<!-- 查询用户是否存在 -->
+<select id="userExist" parameterType="string" resultMap="userMap" >
+	select * from users where userName=#{username}
+</select>
+
+<!-- 用户登录验证 -->
+<select id="login" parameterType="map" resultMap="userMap" >
+	select * from users where userName=#{name} and loginPwd=#{pwd}
+</select>
+
+<select id="findUserByID" resultType="int" resultMap="userMap" >
+	select * from users where userId=#{id};
+</select>
+
+</mapper>

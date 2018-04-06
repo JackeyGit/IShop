@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.pojo.Product">
+
+<resultMap id="productMap" type="com.pojo.Product" >
+		<id property="pid" column="pid"/>
+		<result property="pname" column="pname" />
+		<result property="prodes" column="prodes" />
+		<result property="categoryid1" column="categoryid1" />
+		<result property="categoryid2" column="categoryid2" />
+		<result property="categoryid3" column="categoryid3" />
+		<result property="stock" column="stock" />
+		<result property="photo" column="photo" />
+		<result property="status" column="status" />
+		<result property="ptinme" column="ptinme" />
+		<result property="property" column="property" />
+		<result property="price" column="price" />
+</resultMap>
+<insert id="addProduct" parameterType="com.pojo.Product" useGeneratedKeys="true" keyProperty="pid">
+insert into  product(pname,prodes,categoryid1,categoryid2,categoryid3,stock,photo,status,ptinme,property,price) 
+values
+(#{pname},#{prodes},#{categoryid1},#{categoryid2},#{categoryid3},#{stock},#{photo},#{status},#{ptinme},#{property},#{price});
+</insert>
+
+
+<select id="delProduct" parameterType="int" resultMap="productMap"> 
+delete from product where pid = #{pid};
+</select>
+
+<select id="findProductById" parameterType="int" resultMap="productMap"> 
+select* from product where pid = #{pid};
+</select>
+
+</mapper>

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-info {
+	width: 990px;
+}
+.top-main {
+	width: 990px;
+}
+.show-box {
+	width: 990px;
+}
+
+.search-in {
+	width: 325px;
+}
+
+.eval-line {
+	height: 105px;
+}
+.eval-but {
+	float: left;
+	margin: 18px 50px;
+	cursor: pointer;
+}
+.eval-text-div {
+	width: 645px;
+	height: 100px;
+	border: 1px solid #eeeeee;
+	margin: 15px 0;
+}
+.eval-text-left {
+	width: 100px;
+	height: 100px; line-height: 100px;
+	text-align: center;
+	background: #f9f9f9;
+	float: left;
+	border-right: 1px solid #eeeeee;
+	font-size: 14px;
+}
+.eval-text-main {
+	float: right;
+	width: 544px;
+	height: 100%;
+}
+.eval-text-main textarea {
+	border: none;
+	outline: none;
+	height: 70px;
+}
+.eval-bottom {
+	padding: 10px 0;
+	border-top: 1px solid #eeeeee;
+	margin-top:20px;
+}
+
+.eval-img-add input {
+    display: none;
+}
+
+.eval-other {
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid #eeeeee;
+}
+
+.eval-img-div img {
+    width: 101px;
+	height: 101px;
+}
+
+

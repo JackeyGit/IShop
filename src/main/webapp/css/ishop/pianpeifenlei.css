@@ -1,0 +1,188 @@
+.content-wrapper {
+	width: 1200px;
+	margin: auto;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}
+.width-1200 {
+	width: 1200px;
+	margin: auto;
+}
+.show-box-other {
+	width: 100%;
+}
+.middle-header {
+	height: 40px;
+	margin-top: 20px;
+}
+.middle-header-common {
+	width: 520px;
+	height: 30px;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #d7d7d7;
+}
+.middle-header-left {
+	float: left;
+	background-image: url(../img/pianpeifenlei/two_lines1.png);
+	background-position: right;
+}
+.middle-header-center {
+	float: left;
+	width: 160px;
+	color: #555555;
+	font-size: 24px;
+	font-weight: bold;
+}
+.middle-header-right {
+	float: right;
+	background-image: url(../img/pianpeifenlei/two_lines2.png);
+	background-position: left;
+}
+.hr-title-div {
+	clear: both;
+	padding-top: 30px;
+}
+/* title of horizontal line  */
+.hr-title {
+	height: 20px;
+	line-height: 20px;
+	font-size: 26px;
+	color: #555555;
+}
+.hr-title-txt {
+	font-size: 14px;
+	padding-left: 20px;
+}
+/* horizontal gradient line  */
+.gradient-hr {
+	width: 300px;
+	margin-left: 10px;
+	padding-bottom: 5px;
+}
+.normal-hr {
+	width: 778px;
+	height: 7px;
+	padding-bottom: 5px;
+}
+.normal-hr2 {
+	width: 628px;
+}
+.normal-hr3 {
+	width: 613px;
+}
+.photo {
+	position: relative;
+	float: left;
+}
+.photos {
+	width: 1200px;
+	height: 230px;
+	margin: 20px 0 20px 0;
+}
+.photo1-li, .photo1-li-right {
+	position: relative;
+	float: left;
+	padding: 2px;
+	width: 230px;
+	height: 230px;
+}
+.photo1-img {
+	float: left;
+	width: 230px;
+	height: 230px;
+}
+.photo1-li:hover {
+	padding: 0;
+	margin-right: 7px;
+	border: 2px solid #dedede;
+}
+.photo1-li-right:hover {
+	padding: 0;
+	margin-right: 0;
+	border: 2px solid #dedede;
+}
+.photo1 a, .photo2 a, .photo3 a {
+	cursor: pointer;
+}
+.photo1-left {
+	margin-right: 7px;
+}
+.photo1-right {
+	margin-right: 0;
+}
+.photo2-li, .photo2-li-right {
+	position: relative;
+	float: left;
+	width: 590px;
+	height: 230px;
+	padding: 2px;
+}
+.photo2-img {
+	float: left;
+	width: 590px;
+	height: 230px;
+}
+.photo2-left {
+	margin-right: 10px;
+}
+.photo2-li:hover {
+	padding: 0;
+	margin-right: 10px;
+	border: 2px solid #dedede;
+}
+.photo2-li-right:hover {
+	padding: 0;
+	margin-right: 0;
+	border: 2px solid #dedede;
+}
+.photo3-li {
+	position: relative;
+	float: left;
+	width: 472px;
+	height: 230px;
+	margin-right: 6px;
+	padding: 2px;
+}
+.photo3-img {
+	float: left;
+	width: 472px;
+	height: 230px;
+}
+.photo3-li:hover {
+	padding: 0;
+	margin-right: 6px;
+	border: 2px solid #dedede;
+}
+.opacity-gradient {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 226px;
+	height: 226px;
+	background-image: url(../img/pianpeifenlei/gray_gradient.png);
+	background-position: left;
+	background-repeat: repeat-x;
+	vertical-align: bottom;
+	text-align: center;
+	padding: 2px;
+}
+.opacity-txt {
+	position: absolute;
+	float: left;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 230px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-size: 15px;
+}
+.sc-title-div2 {
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+	overflow: hidden;
+	clear: both;
+}

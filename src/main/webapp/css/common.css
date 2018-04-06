@@ -1,0 +1,411 @@
+	*{margin:0;padding:0;list-style-type:none;}	
+.topbar {
+    position: relative;
+    z-index: 1000;
+    height: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.topbar .sub-1{
+			position: relative;
+			margin-left: 100px;
+			font-family:  Arial, 'Microsoft YaHei', 宋体;
+			font-size: 15px;
+			color: #666666;
+			
+		
+	
+}
+.topbar .sub-2{
+			position: absolute;
+			right: 200px;
+			top: 0px;
+			height: 32px;
+			width: auto;
+			list-style: none;
+			
+}	
+
+
+.topbar .sub-2 ul li{display: block; float: left;
+					 
+			         }
+.topbar .sub-2 ul li a{text-decoration: none;}
+.topbar .sub-2 .nav-x .item a{
+					font-family: 'SimHei';
+			       	color:#999999;
+			         font-size:14px ;
+			         font-weight: bold;}
+			         
+.topbar .sub-2 .nav-x .item a:hover{color:#00BFFF;}
+.topbar .sub-2 ul .line{height:16px;border-left: 1px solid #999999;margin-top:8px;margin-left: 8px;padding-right: 8px;}
+/* ------------midbar       start------------------- */
+.midbar {	
+			position: relative;
+			left: 100px;
+			top: 0px;
+			right: 200px;
+			width: 1240px;
+			height: 75px;
+			
+}
+.midbar .sub-1{ 
+			position: relative;	
+			top: 20px;
+				}
+
+.midbar .sub-2{ 
+			
+			position: absolute;
+			left: 530px;			
+			top: 30px;
+
+
+.midbar .search-form {
+    float: right;
+    margin-top: 10px;
+}
+				}
+.midbar .search-keyword {
+    border: 1px solid #0093F0;
+    border-right: none;
+    height: 32px;
+    line-height: 32px;
+    width: 460px;
+    float: left;
+    margin-left: 40px;
+    padding: 5px 5px 5px 20px;
+    font-size: 14px;	
+    }			
+.midbar .btn-search{				
+    width: 70px;
+    height: 44px;
+    background-color: #0093F0;
+    border: 1px solid #0093F0;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+/* ------------midbar       stop------------------- */
+.nav{
+	height:50px;
+    width: auto;
+    margin-top: 0px;
+	background-color:#0078d0;
+}
+.nav .menu{
+    height: 50px;
+    width: auto;
+    position:absolute;
+    margin-left: 380px;
+}
+.menu .top{
+    font-family:'Microsoft YaHei';
+    font-size: 18px;
+    list-style: none;
+    margin-top: 0px;
+}
+.menu .top .sub
+{
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    margin-top: 0px;
+}
+.menu .top .sub a {
+    text-decoration: none;
+    display:block;
+    width: 100px;
+    
+        color: white;
+}
+.menu .top .sub a:hover{
+
+    background-color: #0093f0;
+    color: #FFFFFF;
+}
+
+/*列导航*/
+*{margin:0;padding:0;list-style-type:none;}
+
+.main{ z-index:1;
+	   position:relative;
+	   width:240px;
+	   margin:40px 0 0 120px;
+	   background:#0078D0;
+	   
+	   line-height:2em;
+		background-color:#ffffff;  
+		font-family:arial, helvetica, sans-serif;
+		color:white;
+		font-size:14px;
+	   }
+.main .warp{z-index:99999;position:relative}
+.main .warp h2{ font-size:18px;}
+.main .warp h2 a{line-height:50px;
+				 background-color:#0078D0;
+				 padding-left:80px;
+				 width:160px;
+				 display:block;
+				 font-family:'Microsoft YaHei';
+				 height:50px;
+				 color:white;
+				 font-size:18px;
+				 font-weight:normal;
+				 text-decoration:none}
+
+.main .warp h2 a:hover{background-color:#0093f0;
+						text-decoration:none;
+						}
+.main .warp ul{
+				z-index:99999;
+				position:absolute;
+				background-color:#0078D0;
+				width:240px;
+				display:none;
+				height:500px;
+				top:50px;
+				left:0px;
+			}
+.main .warp ul li{padding-bottom:1px;zoom:1;clear:both;cursor:default}
+.main .warp ul li{padding-bottom:1px;zoom:1;clear:both;cursor:default}
+.main .warp ul li .tx{
+						line-height:50px;
+						background-color:#0078D0;/*未选中的颜色*/
+						padding-left:35px;
+						background-repeat:no-repeat;
+						background-position:right center;
+						height:50px;
+						background-image:none;
+						}
+.main .warp ul li .tx a{ font-family:'Microsoft YaHei', 黑体;
+						 color:white;
+						 font-size:16px;
+						 text-decoration:none;
+						}
+.main .warp ul li .pop{
+						border-bottom:#0078D0 1px solid;
+						position:absolute;
+						border-left:medium none;
+						padding-bottom:10px;
+						background-color:white;/*act 背景颜色*/
+						min-height:450px;
+						padding-left:50px;
+						width:180px;
+						padding-right:30px;
+						display:none;
+						height:485px;
+						border-top:medium none;
+						top:0px;
+						border-right:#0078D0 1px solid;
+						border-top:#0078D0 1px solid ;
+						padding-top:5px;
+						left:300px;
+						box-shadow:4px 4px 5px -1px #999999;
+						}
+.main .warp ul li .pop .act{
+						width:250px;
+						height:460px;
+						overflow:hidden;
+						padding-top:10px;
+						color:black;
+						font-family: 'Microsoft YaHei';
+						font-size: 14;
+						}
+.main .warp ul li .pop .act p a{
+								color: #666666;
+								text-decoration: none;
+						
+}
+.main .warp ul li .pop .act p:hover a{color:#0078D0}
+.main .warp:hover ul{display:block}/*控制一级菜单显示隐藏*/
+.main .warp ul li:hover{background-color:#0093f0}
+.main .warp ul li:hover .tx{background-color:white} /*选中后的颜色*/
+.main .warp ul li:hover .tx a{color:#0093f0}
+.main .warp ul li:hover .tx a i{background-position:0px -25px}
+
+.main .warp ul li:hover .pop{
+							display:block;
+							top:0px;
+							left:240px
+							}/*控制二级菜单显示隐藏*/
+.main .warp ul li:hover a{color:#0093f0}
+.main .warp ul li:hover a:hover{color:#0093f0}
+
+/*图片轮播*/
+
+ #box{
+ 	position:relative;
+	width:auto;
+	height:500px;
+	background:#fff;
+	border:1px solid ;
+	margin:0px auto;
+	cursor:pointer;
+  }
+ #box #list{
+ 	position:relative;
+	width:auto;
+	height:500px;
+	overflow:hidden;
+ } 
+#box #list ul li{height:500px;}
+
+
+
+
+/*course-list css */
+.all-module{
+	width:1170px;
+	margin: 0 auto;
+}
+
+.course-module-list{
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.module-title {
+    border-bottom: 1px solid #cbcbcb;
+    padding: 30px 0 0;
+    margin-bottom: 45px;
+    position: relative;
+    text-align: center;
+}
+
+.module-title h2 {
+	
+    display: inline-block;
+    min-width: 150px;
+    height: 54px;
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    border-bottom: 3px solid #0078d0;
+    margin-bottom: -2px;
+    font-family: "sans-serif";
+}
+
+.module-title a {
+    position: absolute;
+    right: 0;
+    bottom: -11px;
+    width: 60px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+    border-radius: 12px;
+    background: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 150;
+    font-family: 'Microsoft YaHei';
+    
+}
+
+.module-title a:hover {
+   
+    color: #0078d0;
+}
+
+/*** 课程模块 ***/
+.course-module-list {
+    margin: 0 0 0 -20px;
+    list-style: none;
+}
+
+.course-module-list li {
+    float: left;
+    margin-bottom: 20px;
+    width: 238px;
+    height: 190px;
+}
+
+.course-module-list li .course-list-con {
+    margin-left: 20px;
+}
+
+.course-module-list li .course-list-con:hover {
+    -webkit-box-shadow: 0 1px 8px #ccc;
+    box-shadow: 0 1px 8px #ccc;
+}
+
+.course-module-list li .course-pic {
+    position: relative;
+}
+
+.course-module-list li .course-pic a img {
+    width: 100%;
+}
+
+.grid-mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+	/* padding: 0 10px;*/
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden
+}
+
+.grid-mask .reminder-live-hd {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.grid-mask .reminder-live-hd i {
+    font-size: 14px;
+    top: 8px;
+}
+
+.grid-mask a {
+    color: #ff6400;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.course-module-list li .course-list-con .course-text {
+    padding: 5px 10px 10px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    margin-top: 0;
+    
+}
+
+.course-module-list li .course-list-con .course-text h4 {
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.course-module-list li a {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.course-module-list li a:hover {
+    color: #0078d0;
+}
+/* course-list end*/
+
+	

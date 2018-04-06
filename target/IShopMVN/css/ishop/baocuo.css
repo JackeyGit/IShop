@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-info {
+	width: 990px;
+}
+.top-main {
+	width: 990px;
+}
+.align-right-tag {
+	margin-top: 10px;
+}
+.nav {
+	height: auto; line-height: 25px;
+}
+.content-top {
+	width: 990px;
+}
+.show-box {
+	width: 990px;
+}
+.img-div {
+	text-align: center; padding: 50px 0;
+}
+
+/* err-title */
+.err-title {
+	text-align: center; margin: 30px 0 15px;
+}
+.larg-title {
+	font-size: 28px;
+}
+.img-div p {
+	margin-left: 319px; float: left;
+}
+.err-gray {
+	color: #a6a6a6;
+}
+.img-div p > a {
+	cursor: pointer;
+	margin: 0 20px;
+	color: #2340bb;
+}
+
+/* err-cont */
+.err-cont {
+	width: 853px;
+	height: 303px;
+	margin: 20px auto;
+	border: 1px solid #e5e5e5;
+}
+.err-slide-title {
+	height: 40px; line-height: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	margin:0 20px;
+}
+.err-slide-title a {
+	padding: 10px 30px;
+}
+
+.err-slide {
+	padding: 15px 0;
+	text-align: center;
+}
+.err-go-left {
+	float: left; padding: 8px; margin-top: 80px; cursor: pointer;
+}
+.err-go-right {
+	float: right; padding: 8px; margin-top: 80px; cursor: pointer;
+}
+
+.err-slide-main {
+	width: 780px;
+	height: 230px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.err-slide ul {
+	width: 1600px;
+}
+.err-slide li {
+	float: left;
+	width: 160px;
+	height: 210px;
+	cursor: pointer;
+	padding: 10px;
+	text-align: left;
+	margin-right: 20px;
+}
+.err-slide li:hover {
+	border: 1px solid #e8e8e8; padding: 9px;
+}
+.err-slide li h3 {
+	line-height: 16px; margin-bottom: 5px;
+}

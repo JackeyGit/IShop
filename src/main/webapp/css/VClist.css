@@ -1,0 +1,85 @@
+body{
+			/* text-align:center;*/
+				padding: 0 0 0 0;
+			}
+			
+			
+.nav{
+	height:50px;
+    width: auto;
+    margin-top: 0px;
+	background-color:#0078d0;
+}
+.nav .menu{
+    height: 50px;
+    width: auto;
+    position:absolute;
+    margin-left: 380px;
+}
+.menu .top{
+    font-family:'Microsoft YaHei';
+    font-size: 18px;
+    list-style: none;
+    margin-top: 0px;
+}
+.menu .top .sub
+{
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    margin-top: 0px;
+}
+.menu .top .sub a {
+    text-decoration: none;
+    display:block;
+    width: 100px;
+    
+        color: white;
+}
+.menu .top .sub a:hover{
+
+    background-color: #0093f0;
+    color: #FFFFFF;
+}
+.warp{
+			width:auto;
+			height: auto;
+			overflow: hidden;				
+			padding: 0 0 0 0;
+			}
+			
+.warp ul{
+				
+				width: 1400px;
+				height: auto;
+				list-style: none;
+				padding: 0 0 0 0;
+				overflow: hidden;
+				margin:0 auto;
+				
+}
+.warp ul li{
+				display: block;
+				float: left;
+				height: 190px;
+				width: 260px;
+    			margin-bottom: 20px;
+    			padding: 0 0 0 0 ;
+    			border-width: 1px;
+				border-style: solid;
+				border-color: #BFC7D3;
+				margin-left: 10px;
+}
+			
+.warp ul li:hover{-webkit-box-shadow: 0 1px 8px #ccc; box-shadow: 0 1px 8px #ccc;}
+.warp ul li a{text-decoration: none;}
+.warp ul li a:hover{color: #0093F0;}
+.vcpic{width: 260px;height: 150px;position:relative}
+.pic{width: 260px;height: 150px;}
+/* .grid-mask {position: absolute; bottom: 0;left: 0;width: 260px; height: 30px;line-height: 30px;background: rgb(51,51,51);
+		    overflow: hidden;color: white;font-size: 14;font-weight: 700; } */
+.vctitle{height: 30px;text-align: center;text-decoration: none; }
+h4{ height: 30px;line-height: 30px;margin-top: 5px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

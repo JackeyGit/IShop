@@ -1,0 +1,272 @@
+.buying-btn {
+	padding: 10px 0 10px 30px;
+	color: white;
+	width: 56px;
+	background-image: url(../img/Home/icon-busket.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.buying-btn:hover {
+	color: white;
+	cursor: pointer;
+}
+.page-nav a.page-next {
+	background-color: white;
+}
+.page-nav a.page-current {
+	background:none;
+}
+.page-nav {
+	margin-top: 30px;
+	width: 500px;
+}
+.order-main {
+	clear: both !important;
+	height: 600px !important;
+}
+.order-main2 {
+	width: 100%;
+	height: 495px;
+	background: #fff;
+}
+.order-main2-1 {
+	height: 540px !important;
+}
+.no-order-main {
+	margin: 270px 0 0 340px;
+	width: 350px;
+}
+.no-order-main2 {
+	padding: 210px 0 0 260px;
+}
+.no-order-cont {
+	width: 240px;
+}
+.go-shop {
+	border: 1px solid #e5e5e5;
+	padding: 7px 60px 7px 60px;
+}
+.cancel-order {
+	border: 1px solid #e5e5e5;
+	padding: 5px 15px 5px 15px;
+}
+a.go-main-home {
+	padding: 6px 18px;
+	color: #fff;
+	cursor: pointer;
+}
+.confirm-list-left2 {
+	position: relative;
+	float: left;
+	line-height:20px;
+	padding: 10px;
+	border-right: 1px solid #e5e5e5;
+}
+.order-list-main {
+	background-color: #fff;
+}
+.order-list-main ul {
+	height: 300px;
+}
+.order-list-main li:hover {
+	border-bottom: 3px solid #f5f5f5;
+	background: none;
+}
+.order-list-main li {
+	border-bottom: 3px solid #f5f5f5;
+	background: none;
+}
+.confirm-list-custom {
+	height: 180px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.go-shop-div {
+	margin: 10px 10px 10px 0;
+}
+.cancel-order-div {
+	margin-top: 25px;
+}
+.con-left-img {
+	width: 120px;
+	height: 40px;
+	margin-left: -10px;
+}
+.con-left-img-div {
+	text-align:center;
+	margin-bottom: 5px;
+}
+.confirm-list-right2 {
+	float: right;
+	width: 782px;
+	text-align: center;
+	margin-top: -39px;
+}
+.pro-slide-main2 {
+	width: 640px !important;
+	border: 1px solid #fff;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+.pro-slide-main2 li img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pro-slide-main2 li span {
+	padding-top: 20px;
+}
+.pro-slide li {
+	float: left;
+	width: 120px;
+	cursor: pointer;
+	padding: 10px;
+	text-align: left;
+	margin-right: 12px;
+	background: none;
+	border: 0;
+}
+.pro-slide-main2 li {
+	width: 124px;
+	margin-right: 0;
+	padding: 10px 18px 10px 18px;
+}
+.pro-slide-main2 li:hover {
+	width: 124px;
+	margin-right: 0;
+	padding: 10px 18px 10px 18px;
+	border: 0;
+}
+.padding-5 {
+	padding: 5px;
+}
+.padding-4 {
+	padding: 6px 6px 6px 10px;
+}
+.margin-5 {
+	margin: 5px;
+}
+.margin-left-spec {
+	margin-left: 193px;
+	margin-right: 50px;
+}
+.margin-left-spec2 {
+	margin-left: 120px;
+	margin-right: 10px;
+}
+.order-main-none-height {
+	width: 100%;
+	background: #fff;
+}
+.right-content-txt1 {
+	vertical-align:middle;
+	text-align: center;
+	margin: 45px 0 0 0;
+	height: 200px;
+	line-height: 144px;
+}
+.color-cccccc {
+	color: #cccccc;
+}
+.border-dddddd {
+	border: 1px solid #dddddd;
+}
+.top-title-table {
+	width: 618px;
+}
+.gray-cell {
+	padding-right: 14px;
+}
+.large-text {
+	margin-top: 5px;
+}
+.middle-text2 {
+	width: 400px;
+	line-height: 20px;
+}
+.no-order-cont2 {
+	width: 400px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+.no-order-main2 img {
+	float: left;
+}
+.font-18 {
+	font-size: 18px;
+}
+.li-div {
+	position:relative;
+	float: left;
+	width: 139px;
+	border: 0px dotted red;
+	padding: 10px 15px 10px 15px;
+}
+.img-container, .detail-container {
+	padding: 5px;
+}
+.detail-container p {
+	margin-bottom: 5px;
+}
+.btn-common, .fav-btn {
+	background-color: #eaeaea;
+	padding: 3px 15px 3px 15px;
+	border: none;
+	cursor: pointer;
+	color: #555555;
+}
+.fav-ok {
+	background: #fd7c24;
+	color: #fff;
+}
+.margin-right-spec {
+	margin-right: 7px;
+}
+.order-list-main-li-2 {
+	height: 244px;
+}
+.padding-top-0 {
+	padding-top: 0;
+}
+.photo-list {
+	position: absolute;
+	width: 100%;
+	height: 203px;
+}
+.photo-list button {
+	outline: none;
+}
+.margin-bottom-none {
+	margin-bottom: 0;
+}
+.margin-top-70 {
+	margin-top: 70px;
+}
+.margin-left-20 {
+	margin-left: 20px;
+}
+.margin-right-20 {
+	margin-right: 20px;
+}
+.tab-show {
+	display: block;
+}
+.tab-hidden {
+	display: none;
+}
+.confirm-title a {
+	padding: 5px;
+}
+.fav-title-box a {
+	padding-bottom: 10px;
+}
+.fav-slide-box li span.red {
+	font-size: 18px; color: #ed0c18;
+}
+.guanzhu-del {
+	float: right;
+}
+.guanzhu-del:hover {
+	cursor: pointer;
+	color: red;
+}

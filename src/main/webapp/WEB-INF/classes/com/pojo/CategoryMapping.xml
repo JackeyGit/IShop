@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.pojo.Category">
+
+<resultMap id="categoryMap" type="com.pojo.Category" >
+		<id property="cid" column="cid"/>
+		<result property="cname" column="cname" />
+		<result property="cpid" column="cpid" />
+		<result property="clevel" column="clevel" />
+			   
+</resultMap>
+<select id="findOneCategory"  resultMap="categoryMap">
+select cid, cname from category where clevel=0;
+</select>
+
+<select id="find2Category" parameterType="string"  resultMap="categoryMap">
+select cid,cname from category where cpid=(select cid from cype where cname=#{name})
+</select>
+
+
+
+</mapper>

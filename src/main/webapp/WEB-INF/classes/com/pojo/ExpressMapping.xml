@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.pojo.Express">
+
+<resultMap id="expressMap" type="com.pojo.Express" >
+		<id property="expressId" column="expressId"/>
+		<result property="expressName" column="expressName" />
+		<result property="isvalid" column="isvalid" />
+			   
+</resultMap>
+<select id="findExpress" parameterType="int"  resultMap="expressMap">
+select * from express where expressId=#{expressId};
+</select>
+</mapper>

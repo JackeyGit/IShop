@@ -1,0 +1,262 @@
+.cont-main2 {
+	background: white;
+}
+.main-logo {
+	margin-top: 0;
+	margin-right: 0;
+}
+.logo-txt {
+	position: relative;
+	float: left;
+	font-size: 22px;
+	top: 30px;
+	left: 15px;
+	color: #555555;
+}
+.search-wrapper {
+	margin: 20px 0 0 0;
+}
+.float-right {
+	float: right;
+}
+.search-but {
+	width: 121px;
+	font-size: 20px;
+	height: 40px;
+	background: #fd7c24;
+	color:white;
+}
+.order-main {
+	width: 100%;
+	height: 284px;
+	background: #fff;
+}
+.no-order-main {
+	width: 300px;
+	height: 77px;
+	float: left;
+	margin: 103px 0 0 340px;
+}
+.no-order-cont {
+	width: 195px;
+	float: right;
+	margin-top: 5px;
+}
+.go-view {
+	color: #2072b2;
+	margin-top: 15px;
+	cursor: pointer;
+	float: left;
+}
+.large-text {
+	font-size: 16px;
+}
+.middle-text {
+	font-size: 14px;
+}
+.gray-cell {
+	color: #959595;
+	margin-top: 10px;
+}
+.err-slide-title2 {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	margin: 0;
+}
+.main-border-bottom3 {
+	padding: 10px 30px;
+}
+.err-slide-title {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	margin:0 20px;
+}
+.err-cont {
+	width: 990px;
+	height: 303px;
+	margin: 20px auto;
+	border: 1px solid #e5e5e5;
+}
+.err-slide-main {
+	width: 900px;
+	height: 230px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin-left : 6px;
+}
+.err-slide li {
+	float: left;
+	width: 160px;
+	height: 210px;
+	cursor: pointer;
+	padding: 10px;
+	text-align: left;
+	margin-right: 22px;
+	margin-left: 23px;
+}
+.cont-body {
+}
+.cont-table {
+	margin-top: 15px;
+	width:100%;
+}
+.cont-table table {
+	width: 100%;
+}
+.theader {
+	width: 100%;
+	height: 28px;
+	border-top: 2px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+.th-normal-div {
+	position:relative;
+	float: left;
+	width: 90px;
+	text-align: center;
+	padding: 5px 26px 5px 10px;
+	font-weight:normal;
+}
+.th-normal {
+	width: 90px;
+	text-align: center;
+	padding: 5px 30px 5px 30px;
+	font-weight:normal;
+}
+.th-first-div {
+	position:relative;
+	float:left;
+	width: 344px;
+	text-align: left;
+	padding: 5px;
+}
+.th-first {
+	width: 390px;
+	text-align: left;
+	padding: 5px;
+}
+.commodity-header {
+	vertical-align:middle;
+	text-align:left;
+	padding: 10px 0 5px 0;
+}
+.commodity-header span {
+	line-height:20px;
+}
+.first-div {
+	width: 317px;
+}
+.second-div {
+	float: left;
+	width: 630px;
+	padding-top: 20px;
+}
+.second-div > p {
+	float: left;
+	text-align: center;
+	width: 90px;
+	padding: 5px 26px 5px 10px;
+}
+.infos {
+	clear: both;
+	text-align: left;
+	padding-top: 5px;
+}
+.infos p {
+	margin-top: 10px;
+}
+.detail-row {
+	height: 120px;
+	border: 1px solid #e5e5e5;
+	background-color: white;
+}
+.img-06 {
+	position:relative;
+	top: 8px;
+}
+.img-07 {
+	position:relative;
+	top: 2px;
+}
+.img-08 {
+	margin: 0 20px 0 20px;
+}
+.padding-30 {
+	padding: 19px;
+	text-align: center;
+}
+.p-detail {
+	float: left;
+	width: 140px;
+	line-height: 16px;
+	text-align:left;
+}
+.txt-center {
+	text-align:center;
+	width:100%;
+}
+.detail-row td {
+	vertical-align:top;
+	padding-top: 20px;
+}
+.amount-control {
+	margin-right: 20px;
+	background-color: white;
+}
+.total-box {
+	margin-top: 30px;
+	border:1px solid #e5e5e5;
+	width: 100%;
+	height: 50px;
+}
+.total-box-left {
+	position:relative;
+	float:left;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+.total-box-right {
+	position:relative;
+	float:right;
+	height: 50px;
+	line-height: 50px;
+	text-align:right;
+}
+.settle-up {
+	height: 50px;
+	line-height: 50px;
+	padding: 13px 25px 13px 25px;
+	font-size: 18px;
+	margin-left: 10px;
+	background-color: #9c9c9c;
+}
+.font-15 {
+	font-size:15px;
+}
+.total-box-left span {
+	margin-right: 10px;
+}
+.infos span{
+	margin-right: 10px;
+}
+.border-box {
+	border: 1px solid #fd7c24;
+	background-color: #fff;
+	border-radius: 2px;
+	background-image: url(../img/gouwuche/txt-bg.png);
+	background-repeat: no-repeat;
+	background-position-x : 0;
+	background-position-y : 100%;
+	padding: 5px 5px 5px 35px;
+	color: #fd7c24;
+}
+
+
+
+

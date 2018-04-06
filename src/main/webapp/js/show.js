@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$('#nvtitle').MOUSEOVER(function(){
+		alert("1231")
+	    $('nv').show();
+	})
+	$('#nvtitle').MOUSEOUT(function(){
+	    $('nv').hide();
+	})
+})

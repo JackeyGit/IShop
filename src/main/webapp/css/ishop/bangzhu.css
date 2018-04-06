@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-info {
+	width: 990px;
+}
+.main-logo {
+	margin-top: 20px;
+}
+.top-main {
+	width: 990px;
+	height: 90px;
+}
+.search-wrapper {
+	float: right;
+	margin: 20px 0 0 0;
+}
+.search-wrapper .search-box {
+	border: 3px solid #316aeb;
+}
+.search-but {
+	background: #316aeb;
+}
+.cont-main {
+	background: #fcfcfc;
+	padding-bottom: 30px;
+}
+.show-box {
+	width: 990px; padding-top: 30px;
+}
+
+/* help-left */
+.help-left {
+	float: left;
+	width: 210px;
+}
+.help-title {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: #316aeb;
+	font-size: 16px;
+}
+
+/* cell-title */
+.cell-title {
+	height: 39px;
+	line-height: 39px;
+	background: #eaeaea url(../img/bangzhu/icon-cell-down.png) no-repeat 90%;
+	font-size: 14px;
+	padding-left: 35px;
+	border-bottom: 1px solid #fff;
+}
+.help-ul li {
+	cursor: pointer;
+}
+.cell-body {
+	display: none;
+}
+.cell-open > .cell-body {
+	display: block;
+}
+.cell-chd {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	background: #fff;
+	padding-left: 35px;
+	border-bottom: 1px solid #f3f3f3;
+	position: relative;
+}
+.cell-chd:hover {
+	color: #f40;
+}
+.cell-chd > div {
+	width: 3px;
+	top: -1px; bottom: 0;
+	background: #316aeb;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+.cell-last {
+	border-bottom: none;
+}
+.cur-cell {
+	color: #316aeb !important;
+}
+.cur-cell>div {
+	display: block;
+}
+.cell-open .cell-title {
+	background: #eaeaea url(../img/bangzhu/icon-cell-up.png) no-repeat 90%;
+}
+
+
+.help-right {
+	width: 755px;
+	margin-left: 22px;
+	border: 1px solid #f0f0f0;
+	float: right;
+	background: #fff;
+}
+.help-cont-top {
+	height: 50px;
+	line-height: 50px;
+	color: #316aeb;
+	font-size: 20px;
+	margin: 20px 50px;
+	border-bottom: 1px dashed #eaeaea;
+}
+.help-cont-body {
+	width: 100%;
+	text-align: center;
+}
+	
+.footer {
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

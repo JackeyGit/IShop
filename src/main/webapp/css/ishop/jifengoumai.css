@@ -1,0 +1,446 @@
+.top-info {
+	width:990px;
+}
+.top-main{
+	width:990px;
+}
+.top-main > img {
+	margin-top: 10px;
+}
+.main-logo {
+	width:247px;
+	height:52px;
+}
+.state-bar {
+	margin-left:200px;
+}
+.other-box2{
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	width:44px;
+	height:44px;
+	line-height: 44px;
+	cursor: pointer;
+	font-size: 20px;
+	background: #f7f7f7;
+}
+.other-box2 .other-box-busket {
+	background: #f2f2f2;
+	width: 100%;
+}
+.delete-cell {
+	position: relative;
+	float: right;
+	top: -24px;
+	right: 20px
+}
+.address-cont {
+	margin:10px auto;
+	margin-bottom: 0;
+	height: 117px;
+	overflow: hidden;
+}
+.address-cont li {
+	float:left;
+	width:237px;
+	height:105px;
+	margin-right: 10px;
+	margin-bottom: 13px;
+	cursor: pointer;
+	background:url(../img/jifengoumai/bainsehui.png) no-repeat center;
+	border: 1px solid #c8c8c8;
+	border-radius: 6px;
+	position: relative;
+}
+.address-cont li>div {
+	padding: 5px;
+}
+.address-cont li p {
+	margin: 4px 10px;
+	height:25px;
+	line-height:25px;
+}
+.address-cont li.end-cell {
+	margin-right: 0px;
+}
+.address-info {
+	width: 180px;
+	line-height: 15px;
+	margin: 7px 10px;
+}
+.address-cont li a {
+	float:right;
+	margin-right:10px;
+	color:#2288ee;
+}
+.more-addr-but, .normal-but {	
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.more-addr-but {
+	width:80px;
+	height: 25px;
+	background:url(../img/jifengoumai/icon-double-down.png) no-repeat 100% center;
+}
+.normal-but {
+	float:right;
+	width:125px;
+	height:25px;
+	line-height:25px;
+	margin-left: 10px;
+	text-align: center;
+	background: #f2f2f2;
+	border: 1px solid #d0d0d0;
+}
+.addr-default-mark {
+	background: url(../img/jifengoumai/icon-default-bg.png) no-repeat center;
+	position: absolute;
+	width: 60px; height: 16px; line-height: 16px;
+	top: 1px; right: 3px;
+	color: #fff;
+	text-align: center;
+	// display: none;
+}
+.addr-defalut .addr-default-mark {
+	display: block;
+}
+.addr-defalut .delete-cell, .addr-defalut .btn-default {
+	display: none;
+}
+.addr-defalut .btn-edit {
+	float: left; color: #fd7c24; margin-left: 20px;
+}
+.address-cont li.addr-sel {
+	background: url(../img/jifengoumai/border-effect-sel.png) no-repeat center;
+}
+.pay-option ul li {
+	float:left;
+	width:116px;
+	cursor:pointer;
+	margin-right:6px;
+	border: 1px solid #d0d0d0;
+	position: relative;
+}
+.pay-option ul li.selected {
+	border: 1px solid #fd7c24;
+}
+.pay-opt-mark {
+	position: absolute;
+	bottom: 0; right: 0;
+	display: none;
+}
+.pay-option ul li.selected .pay-opt-mark {
+	display: block;
+}
+.pay-option ul li.end-cell {
+	margin-right: 0px;
+}
+.ruzhu-input3 {
+	width:600px;
+	height:50px;
+}
+.ruzhu-input-item > label {
+	width:95px
+}
+.ruzhu-input-item > span {
+	vertical-align:top;
+	margin:5px;
+	position: relative;
+	top: 3px;
+}
+.confirm-info-detail {
+	width:950px;
+	margin:40px auto;
+	position:relative;
+	background:#f7f7f7;
+	padding:20px;
+}
+.jifen-input-custom1 {
+	width:100px;
+	height: 20px;
+	line-height: 20px;
+}
+.jifen-input-custom2 {
+	width:30px;
+	height: 20px;
+	line-height: 20px;
+}
+.jifen-input-custom3 {
+	width:320px;
+	left:40px;
+	background:#f5f5f5;
+}
+.jifen-input-custom4 {
+	width:320px;
+}
+.ruzhu-input-item > p.icon-but {
+	margin-top: -6px;
+	float:left;
+	background:#fff;
+	width:94px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #cfcfcf;
+	text-align:center;
+}
+.ruzhu-input-item .custom-lbl {
+	width: 196px;
+	margin-left: 20px;
+}
+.ruzhu-input-item .custom-lbl2 {
+	width: 156px;
+	margin-left: 20px;
+}
+.ruzhu-input-item .custom-lbl3 {
+	width: 60px;
+	margin-left: 20px;
+}
+.ruzhu-input-item .custom-lbl4{
+	width: 100px;
+	font-size:16px;
+	margin-left: 0px;
+}
+.ruzhu-input-item .custom-span {
+	top: 9px;
+}
+#upload-verify-btn {
+	cursor: pointer;
+}
+.chek-custom {
+	position:absolute;
+	top: 254px;
+	right: 30px;
+}
+.chek-custom > span {
+	vertical-align: middle;
+}
+.offer-order-div {
+	height:290px;
+}
+.offer-order {
+	float:right;
+	margin:10px auto;
+	width:400px;
+}
+.offer-order ul {
+	margin:20px;
+	float:right;
+	text-align: right;
+}
+.offer-order ul li {
+	margin:10px auto;
+}
+.offer-order ul li p span.red {
+	font-size:16px;
+	font-weight:bold;
+}
+.offer-order ul li.end-cell p, .offer-order ul li.end-cell p span.red {
+	font-size:20px;
+}
+.custom-offer-but {
+	position: absolute;
+	top: 210px;
+	right: 0px;
+	width: 210px;
+	height: 50px;
+	line-height: 50px;
+	font-size:16px;
+	color:#fff;
+}
+.time-setting-btn {
+	cursor:pointer;
+}
+.hidden-info {
+	position:absolute;
+	top: -21px;
+	right:0px;
+	width: 520px;
+	height: 160px;
+	border: 1px solid #d0d0d0;
+	background:#fafafa;
+	z-index:1000;
+	display:none;
+}
+.hidden-info ul li {
+	text-align:center;
+	float:left;
+	height:25%;
+	line-height:40px;
+}
+.info-start-cell {
+	width:20%;
+}
+.info-middle-cell {
+	width:25%;
+}
+.info-other-cell {
+	width:18%;
+}
+.info-icon-up {
+	position:absolute;
+	top: -12px;
+	right: 70px;
+}
+
+/* order-list-main */
+.order-list-main {
+	margin-bottom: 20px;
+}
+.order-list-main li {
+	background: #fff;
+}
+.confirm-title {
+	height: 40px;
+	line-height: 40px;
+	background: #f7f7f7;
+	border: 1px solid #cfcfcf;
+	border-bottom:none;
+	padding-left: 20px;
+}
+.confirm-title > img {
+	margin-top: 11px; float: left;
+}
+.confirm-title span {
+	float: left;
+}
+.confirm-title .gray-title {
+	margin: 0 15px 0 10px;
+	color: #aaa;
+}
+.confirm-title .nor-title {
+	margin: 0 15px 0 45px;
+}
+.confirm-list {
+	height: 100px;
+	border: 1px solid #cfcfcf;
+	border-top: 1px solid #d0d0d0;
+}
+.confirm-list-left {
+	width: 267px;
+	position: relative;
+	float: left;
+}
+.confirm-list-left img {
+	margin: 18px; float: left;
+}
+.list-left-cont {
+	float: left; width: 140px;
+	padding-top: 20px;
+}
+.list-left-cont p {
+	line-height: 16px;
+}
+.gray-cell {
+	margin-top:10px;
+}
+
+.confirm-list-right {
+	float: right;
+	width: 720px;
+	height: 100%;
+	text-align: center;
+}
+.confirm-list-right td > p {
+	height: 20px;
+	line-height:20px;
+}
+.confirm-list-right td {
+	vertical-align: middle;
+	width: 16%;
+}
+.confirm-list .confirm-list-right td {
+	vertical-align: top;
+	padding-top: 22px;
+}
+.confirm-list-right .last-td {
+	width: 20%;
+}
+.confirm-list-right .icon-but {
+	position:relative;
+	width:130px;
+	height:50px;
+	line-height:25px;
+	background:#f3f3f3;
+	cursor:pointer;
+}
+.amount-control {
+	float: left;
+	border: 1px solid #e4e4e4;
+	margin-left: 20px;
+}
+.amount-btn-minus, .amount-btn-plus, .amount-control > input {
+	float: left;
+	width: 28px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border:none;
+	outline:none;
+}
+.amount-btn-minus, .amount-btn-plus {
+	font-size: 17px;
+	cursor: pointer;
+}
+
+/***********/
+.line-div{
+	height:1px;
+	background:#cbcbcb;
+	margin:0 10px;
+}
+.default-dimension {
+	position:relative;
+	width:990px;
+	margin:20px auto;
+}
+.title-text {
+	line-height:40px;
+	font-size:16px;
+}
+.custom-gray-color {
+	color:#dedddc;
+}
+	
+
+.state-step-bar {
+	height: 100px;
+	text-align: center;
+	position: relative;
+	padding: 10px 0;
+	float: left;
+	margin-left: 150px;
+}
+.bar-box {
+	position: absolute;
+	width: 400px;
+	height: 3px;
+	top: 32px;
+	left: 55px;
+}
+.color-bar {
+	float: left;
+	height: 100%;
+	background: #a7a7a7;
+	width: 109px;
+	margin-left: 24px;
+}
+.state-box {
+	width: 400px;
+	height: 100px;
+	margin: 10px auto;
+}
+.state-box li {
+	float: left;
+	width: 33.33%;
+}
+.state-num-bar {
+	margin-bottom: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,191 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="css/video-js.css" rel="stylesheet">
+<link href="css/video-item.css" rel="stylesheet">
+<script src="js/videojs-ie8.min.js"></script>
+<script type="text/javascript" src="player/js/jquery-1.4.2.min.js"></script>
+<script src="js/video.min.js"></script>
+<script type="text/javascript" src="player/js/action.js"></script>
+<script type="text/javascript" src="player/js/swfobject.js"></script>
+</head>
+
+<body>
+
+	<div class="topbar">
+		<div class="sub-1">
+			<img src="images/lol.png" />
+		</div>
+
+		<div class="sub-3">
+			<ul class="nav-x">
+				<li class="item">
+					<a class="normal" href="${pageContext.request.contextPath}/Index.jsp">首页</a> &nbsp; 
+					<a class="normal" href="">看过</a> &nbsp;</li>
+			</ul>
+
+			<div class="searhBox">
+				<form action="#">
+					<input results="s" type="search" class="serinp"
+						placeholder="输入关键字">
+					<button class="btn-search ">搜索</button>
+				</form>
+			</div>
+		</div>
+		<div class="sub-2">
+			<ul class="nav-x">
+			
+			<c:if test="${empty sessionScope.user.username}">
+                   			<li class="item">
+	                    	<a class="normal" href="${pageContext.request.contextPath}/LogReg.jsp">登录</a>
+	                    	<span>/</span>
+	                    	<a class="normal" href="${pageContext.request.contextPath}/LogReg.jsp">注册</a>
+                    		</li>
+                   		
+                       		
+                    
+                   
+                   </c:if>
+                   <c:if test="${!empty sessionScope.user.username}">
+                   		<li class="item">
+	                    	<a class="normal" href="${pageContext.request.contextPath}/UserCenter.action">${sessionScope.user.username}</a>
+                    		</li>
+                   			<li class="line"></li>
+                       		<li class="item"><a href="${pageContext.request.contextPath}/logout.action">退出</a></li>
+                   
+				</c:if> 	 
+			
+			
+			
+				<!-- <li class="item"><a class="normal" href="">登陆</a> <span>/</span>
+					<a class="normal" href="">注册</a></li> -->
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="video">
+		<div class="video_play">
+		<div class="close_light_bg" id="close_light_bg"></div>
+		<div class="video" id="CuPlayer"><b><img src="images/loading.gif"  /> 网页视频播放器加载中，请稍后...</b></div>
+
+		</div>
+
+
+		<div class="video_info">
+
+			<div class="video_title">
+				<ul>
+					<li><a href="#">我的标题</a>
+					</li>
+				</ul>
+			</div>
+
+			<div id="itemul" class="video_item">
+				<ul>
+
+					<c:forEach items="${requestScope.videos}" var="item"
+						varStatus="status">
+
+						<li id="list"><a hf="<%=basePath%>${item.vurl}">${status.index+1}</a>
+						</li>
+					</c:forEach>
+
+				</ul>
+
+
+			</div>
+		</div>
+	</div>
+ 
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+$("#list a").click(function(){
+ alert("342");
+
+ var $href=$(this).attr("hf");
+ alert($href);
+var so = new SWFObject("player.swf","myCuPlayer","1075","638","9","#000000");
+so.addParam("allowfullscreen","true");
+so.addParam("allowscriptaccess","always");
+so.addParam("wmode","opaque");
+so.addParam("quality","high");
+so.addParam("salign","lt");
+//播放器配置文件-----------------------------
+so.addVariable("JcScpFile","CuSunV4set.xml"); //配置文件地址 
+//视频文件及略缩图--------------------------
+//so.addVariable("JcScpServer","rtmp://www.yoursite.com/vod"); //流媒体服务器地址 
+so.addVariable("JcScpVideoPath",$href); //视频地址
+//so.addVariable("JcScpVideoPathHD","http://demo.cuplayer.com/file/test.mp4"); //高清视频地址
+so.addVariable("JcScpImg","images/startpic.jpg"); //视频图片
+so.addVariable("JcScpAutoPlay","yes"); //是否自动播放
+so.addVariable("JcScpStarTime","0"); //起始时间点(暂未启用)
+so.addVariable("JcScpEndTime","0"); //结束时间点
+so.addVariable("JcScpCuePointInfo",""); //提示点信息
+so.addVariable("JcScpCuePointTime",""); //提示点秒数值
+/* //-前置Flash广告-----------------------------
+so.addVariable("ShowJcScpAFront","no"); //是否显示前置广告
+so.addVariable("JcScpCountDownsPosition","top-left"); //倒计时位置
+so.addVariable("JcScpCountDowns","5"); //广告倒计时位置
+so.addVariable("JcScpAFrontW","700"); //前置广告宽度
+so.addVariable("JcScpAFrontH","420"); //前置广告宽度
+so.addVariable("JcScpAFrontPath","other/a730x454_01.jpg|other/a730x454_02.jpg"); //前置广告地址
+so.addVariable("JcScpAFrontLink","http://www.cuplayer.com/CuPlayer/link/L011.html|http://www.cuplayer.com/CuPlayer/link/L012.html"); //前置广告链接
+//-视频广告参数-----------------------------
+so.addVariable("ShowJcScpAVideo","no"); //是否显示前置视频广告
+//so.addVariable("JcScpAVideoServer","rtmp://www.yoursite.com/vod"); //前置视频广告服务器
+so.addVariable("JcScpAVideoPath","http://promotion.geely.com/xindihao/media/video1.mp4|http://promotion.geely.com/xindihao/media/video2.mp4"); //前置视频广告地址
+so.addVariable("JcScpAVideoLink","http://www.cuplayer.com/CuPlayer/link/L021.html|http://www.cuplayer.com/CuPlayer/link/L022.html"); //前置视频广告链接
+//-暂停广告参数-----------------------------
+so.addVariable("ShowJcScpAPause","no"); //是否显示暂停广告
+so.addVariable("JcScpAPauseW","300"); //暂停广告地址
+so.addVariable("JcScpAPauseH","250"); //暂停广告高度
+so.addVariable("JcScpAPausePath","other/a300x250_01.jpg|other/a300x250_02.jpg"); //暂停广告地址
+so.addVariable("JcScpAPauseLink","http://www.cuplayer.com/CuPlayer/link/L031.html|http://www.cuplayer.com/CuPlayer/link/L032.html"); //暂停广告链接
+//-角标广告参数-----------------------------
+so.addVariable("ShowJcScpACorner","no"); //是否显示角标广告
+so.addVariable("JcScpACornerW","85"); //角标广告宽度
+so.addVariable("JcScpACornerH","50"); //角标广告高度
+so.addVariable("JcScpACornerPath","other/a90x50_01.swf|other/a90x50_01.swf"); //角标广告地址
+so.addVariable("JcScpACornerPosition","bottom-right"); //角标广告位置
+so.addVariable("JcScpACornerLink","http://www.cuplayer.com/CuPlayer/link/L041.html|http://www.cuplayer.com/CuPlayer/link/L042.html"); //角标广告链接
+//-后置广告参数-----------------------------
+so.addVariable("ShowJcScpAEnd","no"); //是否显示后置广告
+so.addVariable("JcScpAEndW","400"); //后置广告宽度
+so.addVariable("JcScpAEndH","300"); //后置广告高度
+so.addVariable("JcScpAEndPath","other/a400x300_01.swf|other/a400x300_01.swf"); //后置广告地址
+so.addVariable("JcScpAEndLink","http://www.cuplayer.com/CuPlayer/link/L051.html|http://www.cuplayer.com/CuPlayer/link/L051.html"); //后置广告链接
+//-滚动文字广告参数-----------------------------
+so.addVariable("ShowJcScpAMoveText","no"); //是否滚动文字广告 */
+//-----------------------------------------
+so.addVariable("JcScpSharetitle","标题信息"); //视频标题信息
+so.write("CuPlayer");
+</script>
+
+
+
+
+
+
+<!-- <div style="display:none;">
+<script type="text/javascript" src="http://www.cuplayer.com/CuPlayer/js/stat.js"></script>
+</div> -->
+
+</body>
+</html>
+

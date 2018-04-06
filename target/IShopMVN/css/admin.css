@@ -1,0 +1,136 @@
+body{
+	margin:0;
+    background:#FFF;	
+}
+#top{
+	width:96%;
+	height:50px;
+	background: url(../images/back_header.png) no-repeat left;
+	background-size:100% 100px;
+	padding-top:40px;
+	margin:0 0 0 3% ;	
+}
+#topmenu input.button{
+	width:120px;
+	height:30px;		
+}
+#topmenu{
+	margin:0 0 0 80%;	
+	float:center;	
+}
+#time{
+	float:left;	
+	margin:0 0 0 55%;
+}
+#user{
+	float:left;	
+	margin:0 0 0 5%;
+}
+#leftmenu{
+    background:#36648B;	
+	width:20%;
+	height:550px;
+	float:left;
+	margin:0 0 0 3%;
+	
+}
+.menu{
+	width:100%;
+	height:30px;
+	border:1px solid #FFF;
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;	
+}
+#menu{
+	width:100%;
+	height:40px;
+	border:0px solid #FFF;
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;
+	background-color:#636363;
+	background-size:100% 40px;	
+}
+.user{
+	width:100%;
+	height:30px;
+
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;	
+}
+.video{
+	width:100%;
+	height:30px;
+
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;	
+}
+.System{
+	width:100%;
+	height:30px;
+
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;	
+}
+.upload{
+	width:100%;
+	height:30px;
+	font-size:20px;	 
+	font-family:"Microsoft YaHei";
+	color:#FFF;
+	text-align:center;	
+}
+hr{
+	width:80%;		
+}
+#center{
+
+	width:76%;
+	height:auto;
+	float:left;
+	
+	
+}
+#centerTitle{
+	width:100%;
+	height:40px;
+	background:#636363;
+	border:0px solid #FFF;	
+	color:#FFF;
+ 
+	font-family:"Microsoft YaHei";
+}
+#centerShow{
+	width:100%;
+	height:510px;
+    border:0px solid #000;
+    background:#EBEBEB;
+   	
+}
+ #footer{
+     width:96%;
+	   height:200px;
+	   float:left;  
+	   background-color:#36648B;
+	   margin:50px 0 0 3%;		
+    }
+#footer p{
+  margin-top:50px;
+   text-align:center;
+   color:#FFF;
+   font-family:"Microsoft YaHei";
+   font-size:20px;
+    }
+ a{
+ text-decoration:none;
+ color:#FFF;
+ }

@@ -1,0 +1,328 @@
+.logo-header {
+	width: 1200px;
+	height: 60px;
+	margin: auto;
+	padding: 20px 20px 5px 20px;
+	text-align: center;
+}
+.header-border {
+	width: 100%;
+}
+.div-logo {
+	position: relative;
+	float: left;
+	text-align: left;
+	width: 750px;
+	height: 50px;
+	background-image: url(../../img/logreg/logoT.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+}
+.logo-txt {
+	position: relative;
+	float: left;
+	height: 100px;
+	left: 40px;
+	line-height: 100px;
+}
+.already-txt {
+	color: #555555;
+	padding-left: 10px;
+}
+.padding-left-10px {
+	padding-left: 10px;
+}
+.padding-left-72px {
+	padding-left: 72px;
+}
+.content {
+	width: 480px;
+	margin: auto auto 100px auto;
+}
+.step-info {
+	width: 380px;
+	height: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.step-info2 {
+	width: 500px;
+}
+.step {
+	float: left;
+	width: 100px;
+	text-align: left;
+	font-size: 16px;
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-left: 20px;
+}
+.step-div1 {
+	width: 80px;
+	margin-left: 40px;
+}
+.step-div2 {
+	margin-right: 8px;
+}
+.step_num {
+	margin-left: -26px;
+	color: white;
+	font-size: 12px;
+	height: 20px;
+	line-height: 23px;
+}
+.step_txt {
+	height: 23px;
+	line-height: 23px;
+	padding-left: 10px;
+}
+.step-orange {
+	background-image: url(../../img/logreg/orange_circle.png);
+}
+.step-gray {
+	background-image: url(../../img/logreg/gray_circle.png);
+}
+.none-color {
+	color: #999999;
+}
+.arrow_step {
+	float: left;
+	width: 40px;
+	height: 19px;
+	padding-top: 5px;
+	background-image: url(../../img/logreg/arrow_step.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.arrow_step2 {
+	width: 20px;
+}
+.v-line-span {
+	width: 1px;
+	height: 60px;
+	line-height: 60px;
+	border-left: 1px solid #f0f0f0;
+	font-size: 18px;
+	color: #cccccc;
+}
+.inbox {
+	position: relative;
+	border: 1px solid #f0f0f0;
+	height: 47px;
+	padding: 0;
+	margin: 0 0 21px 0;
+}
+.inbox2 {
+	border: 0;
+}
+.inbox-phone {
+	margin-top: 200px;
+}
+.phone-num {
+	margin: 10px;
+	width: 480px;
+	height: 40px;
+	padding: 0;
+}
+.input-img-div {
+	position: absolute;
+	float: left;
+	width: 59px;
+	height: 43px;
+	line-height: 41px;
+	border-right: 1px solid #f0f0f0;
+	text-align: center;
+	left: 0;
+	margin: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.phone-img {
+	background-image: url(../../img/logreg/member2.png);
+}
+.reinput-img {
+	background-image: url(../../img/logreg/reinput.png);
+}
+.lock-img {
+	background-image: url(../../img/logreg/lock.png);
+}
+.lock2-img {
+	background-image: url(../../img/logreg/lock2.png);
+}
+.member2-img {
+	background-image: url(../../img/logreg/phone.png);
+}
+.btn-check {
+	float: right;
+	width: 118px;
+	height: 49px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border: 0;
+	cursor: pointer;
+}
+.btn-retry {
+	background-color: #eeeeee;
+	color: #bbbbbb;
+	border: 1px solid #dddddd;
+}
+.input-img {
+	vertical-align: middle;
+	width: 28px;
+	height: 28px;
+}
+.input-div {
+	position: absolute;
+	float: left;
+	width: 160px;
+	margin: 0;
+	left: 0;
+}
+.phone {
+	padding: 10px 10px 10px 74px;
+	width: 394px;
+	border: 0;
+	height: 27px; line-height: 27px;
+	font-size: 14px;
+}
+.code {
+	width: 268px;
+	border: 1px solid #f0f0f0;
+}
+#code: active {
+	border: 2px solid #FF0036;
+}
+a:hover {
+	color: red;
+	transition: color .2s ease-in-out;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+}
+.read_state {
+	text-align: left;
+	color: #999999;
+	margin-bottom: 25px;
+}
+.btn-register {
+	width: 100%;
+	height: 47px;
+	color: #ffffff;
+	font-size: 18px;
+	border: 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.success-div {
+	width: 500px;
+	height: 120px;
+	text-align: center;
+	margin-top: 90px;
+	padding-left: 30px;
+}
+.checked-img-div {
+	float: left;
+	width: 120px;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 20px;
+	vertical-align: middle;
+	background-image: url(../../img/logreg/checked.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.checked-img-div2 {
+	float: right;
+	width: 400px;
+	height: 80px;
+	line-height: 80px;
+	margin: 60px 0 80px 30px;
+	vertical-align: middle;
+	background-image: url(../../img/logreg/checked.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.success-txt-div {
+	float: left;
+	width: 280px;
+	vertical-align: bottom;
+}
+.success-txt1 {
+	text-align: left;
+	padding-top: 30px;
+	font-size: 24px;
+	color: #555555;
+}
+.success-txt2 {
+	text-align: left;
+	font-size: 16px;
+	padding-top: 10px;
+	color: #555555;
+}
+.success-txt3 {
+	text-align: center;
+	font-size: 16px;
+	line-height: 80px;
+}
+.success-txt4 {
+	text-align: center;
+	font-size: 16px;
+	line-height: 80px;
+}
+.common-txt {
+	padding-left: 0;
+	color: #555555;
+}
+.code2d-div {
+	width: 340px;
+	height: 80px;
+	background-image: url(../../img/logreg/code2d.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 10px;
+	font-size: 16px;
+}
+.btn-div {
+	text-align: center;
+	padding: 40px;
+}
+.btn-register22 {
+	width: 360px;
+	height: 48px;
+	color: #ffffff;
+	font-size: 18px;
+	border: 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+	outline: none;
+}
+div, p, span {
+	font-family: "Microsoft YaHei";
+}
+.note {
+	margin-bottom: 20px;
+}
+.btn-decision {
+	margin-top: 20px;
+}
+.btn-login2 {
+	width: 100px;
+	height: 32px;
+	margin-bottom: 3px;
+	background-color: white;
+	border: 1px solid #dddddd;
+	cursor: pointer;
+}
+.btn-login2-div {
+	width: 100px;
+	height: 80px;
+	margin-bottom: 3px;
+	line-height: 80px;
+}
+.text-white-color{
+	color: #fff;
+}

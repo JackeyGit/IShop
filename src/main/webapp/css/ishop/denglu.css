@@ -1,0 +1,223 @@
+/* Header */
+.login-header {
+	width: 1200px;
+	height: 60px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+.div-logo {
+	position: relative;
+	float: left;
+	text-align: left;
+	width: 800px;
+}
+.logo-content-dv {
+	width:1200px;
+	margin:auto;
+	text-align:left;
+}
+.logo-img-denglu {
+	position:relative;
+	float:left;
+	left: -45px;
+}
+.logo-txt {
+	position: relative;
+	float: left;
+	height: 52px;
+	left: 100px;
+	vertical-align: middle;
+	line-height: 52px;
+}
+.hi-txt {
+	font-size: 40px;
+	color: #555555;
+}
+.welcome-txt {
+	padding-left: 23px;
+	color: #555555;
+	font-size: 21px;
+}
+.login-content {
+	width: 100%;
+	height: 600px;
+	background: #ffd237;
+	margin: auto;
+}
+.logo-img {
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/denglu_zhuce/logo3.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.logo-box {
+	position: relative;
+	float: left;
+	width: 380px;
+	height: 420px;
+	left: 9px;
+	top: 87px;
+	text-align: left;
+	vertical-align: middle;
+	background: white;
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.tab-div {
+	border-bottom: 1px solid #dddddd;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 25px;
+}
+.tab-common {
+	float: left;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	margin : 0 34px;
+}
+.tab-common-none {
+	color: #555555;
+}
+.selected {
+	border-bottom: 2px solid #fd7c24;
+}
+.v-line-div {
+	float: left;
+	width: 1px;
+	height: 60px;
+}
+.v-line-span {
+	width: 1px;
+	height: 60px;
+	line-height: 60px;
+	border-left: 1px solid #f0f0f0;
+	font-size: 18px;
+}
+.inbox {
+	border: 1px solid #f0f0f0;
+}
+.phone-num {
+	margin: 12px;
+	width: 350px;
+	height: 40px;
+}
+.input-img-div {
+	float: left;
+	width: 48px;
+	height: 40px;
+	line-height: 39px;
+	border-right: 1px solid #f0f0f0;
+	text-align: center;
+}
+.input-img {
+	vertical-align: middle;
+	width: 28px;
+	height: 28px;
+}
+.input-div {
+	float: left;
+	width: 160px;
+}
+.phone {
+	padding: 10px;
+	width: 280px;
+	border: 0;
+	height: 20px;
+}
+.pass-confirm-box {
+	float: left;
+	margin: 12px;
+	width: 230px;
+	height: 40px;
+}
+#repasswd {
+	padding: 10px;
+	width: 160px;
+	border: 0;
+	height: 20px;
+}
+.captcha {
+	float: left;
+	width: 106px;
+	height: 40px;
+	margin-top: 12px;
+	line-height: 64px;
+	vertical-align: middle;
+	text-align: center;
+}
+.info-div {
+	float: left;
+	width: 360px;
+	height: 30px;
+	padding: 10px;
+}
+.autologin-check {
+	float: left;
+	padding-left: 2px;
+	padding-top: 3px;
+	color: #a6a6a6;
+}
+.notice-txt {
+	float: left;
+	width: 235px;
+	height: 22px;
+	padding-left: 10px;
+	line-height: 22px;
+	vertical-align: baseline;
+	border: #ffcc66 1px solid;
+	margin-left: 34px;
+}
+.notice-img {
+	vertical-align: top;
+	margin-top: 4px;
+}
+.notice-txt span {
+	padding-left: 10px;
+	color: #a6a6a6;
+}
+.login-btn {
+	width: 348px;
+	height: 40px;
+	border: 0;
+	font-size: 18px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 6px;
+	color: white;
+	cursor: pointer;
+}
+.common-txt {
+	height: 30px;
+	width: 344px;
+	line-height: 30px;
+	padding: 18px;
+	font-size: 14px;
+}
+.info-txt {
+	float: left;
+}
+.forgot-pass {
+	float: right;
+	padding-right: 3px;
+}
+.register {
+	float: left;
+	padding-left: 10px;
+}
+a:hover {
+	color: red;
+	transition: color .2s ease-in-out;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+}
